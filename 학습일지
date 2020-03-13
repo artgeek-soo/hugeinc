@@ -183,3 +183,33 @@ align-items: center 세로/ 가운데 정렬
 
 flex 기본 가로
 flex direction: column --> 세로로 바뀜
+
+<3월 13일>
+   
+border 
+width: 1px; height: 30px; border-left: 1px solid black; 
+birder-radius
+
+background-image: url("img_tree.png")
+background-size: cover
+background-repeat: no-repeat
+background-position: right top
+
+background-image: linear-gradient (to right, rgba (), )
+background: linear-gradient(90deg, rgba(118,9,121,1) 21%, rgba(23,170,200,1) 95%);
+
+justify 원래 가로
+컬럼일때는 세로로 바뀐다.
+display:flex; direction: column 그래야 세로로 바뀜
+
+% 부모의 퍼센트
+vw vh 는 화면의 퍼센트
+
+화면 1440 * 
+
+huge inc
+
+1) 01. 중간 라인 win.
+2) 01. 중간 라인 win. 과 huge thanks 거리가 있다
+3) win/ huge thanks/ 라인/ 캠페인 라인이 같다
+4) 왼쪽 정렬
