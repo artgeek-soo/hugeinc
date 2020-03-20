@@ -213,3 +213,38 @@ huge inc
 2) 01. 중간 라인 win. 과 huge thanks 거리가 있다
 3) win/ huge thanks/ 라인/ 캠페인 라인이 같다
 4) 왼쪽 정렬
+
+3월 16일
+
+box-sizing: content-box
+            border-box 하면 페딩값에 마주처짐
+
+
+justify-content: flex-end; (왼쪽)
+justify-content: flex-start; (오른쪽)
+
+box-sizing: border-box 다시 물어보기
+
+wordwrap:normal
+wordwrap:breakout
+
+3월 18일 숭ㅅ알
+
+<자손의 선택>
+한칸 띄거나 .을 옆에 자손 요소의 이름을 사용하여 자손 요소를 선택합니다.
+
+.home_section
+.home_section.h1
+.home_section h1
+
+<직계 자손 선택>
+.home > section h1
+
+
+.footer_content_right a:last-child {margin-right: 0} 
+last child : 마자막 하나만 하면 하나만 준다
+
+.footer_content_right a:last-child
+
+.footer_content_right a: first-child(odd){color:red}
+.footer_content_right a:nth-child(3n+1) {color:rgb(240, 166, 166);} 3배수 번째 요소
