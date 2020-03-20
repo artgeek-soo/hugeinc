@@ -7,8 +7,10 @@
     src: url(../font/HugeGothic-Bold.woff)}
 
 h1 {font-family: HugeGothic-Bold; font-size: 300px; color:black; font-weight: 900;}
-p  {font-family: Galaxie-Book; font-size: 14px; color:black; font-weight: 100;}
+p  {font-family: Galaxie-Book; }
 
+
+.home_01 {width:100vw; height:100vh;}
 .home_section_01 {width:100vw; height:100vh}
 .home_section_wrap {width:100vw; height:100vh}
 .logo {width:60px; font-family:HugeGothic-Bold; font-size:36px; font-weight: 700; color:deeppink; position: fixed; top:60px; right:930px;}
@@ -23,18 +25,32 @@ p  {font-family: Galaxie-Book; font-size: 14px; color:black; font-weight: 100;}
 .margin_top_72 {margin-top: 72px;}
 .margin_top_96 {margin-top: 96px;}
 
+/*color*/
+.border_color_white {border-bottom: 1px solid white;}
+.border_color_black {border-bottom: 1px solid black;}
+.font_color_black {color:black}
+.font_color_white {color:white}
+
+
 .home_section_wrap {width:100vw; height:100vh; box-sizing: border-box; display: flex; background-image: url(../home/Hugeinc_CampaignHugeinc_1920x1080_Pantone-a.png); background-size:cover;}
 
 .home_section_index {width:12.5vw; height:100vh; padding-top:20vh; box-sizing:border-box;}
-.home_section_index_wrap {display: flex; justify-content: flex-end; width:12.5vw;}
-.home_section_index_number {font-family: HugeGothic-Bold; font-size:22px; font-weight: 100; line-height:22px; color:white; margin-right:15px; letter-spacing: 2px;}
-.home_section_index_line {border-bottom: 1px solid white; width: 5vw; height:11px;}
+
+.home_section_index_wrap {display: flex; justify-content: flex-end; width:12.5vw; font-family: HugeGothic-Bold;}
+
+.home_section_index_wrap p {font-family: HugeGothic-Bold; font-size:22px; font-weight: 100; line-height:22px; color:white; margin-right:15px; letter-spacing: 2px;}
+
+.home_section_index_wrap div { width: 5vw; height:11px;}
 .home_section_content {width:75vw; height:100vh; padding:20vh 0; box-sizing: border-box; padding-left:15px;}
+
 .home_section_content_wrap{width: 45%; height:60vh;}
-.home_section_content_subtitle {font-family: HugeGothic-Bold; font-size:22px; font-weight:100px; color: white; line-height:22px; letter-spacing: 1px;}
+    .home_section_content_wrap div {font-family: HugeGothic-Bold; font-size:22px; font-weight:100px; line-height:22px; letter-spacing: 1px;}
+
 .home_section_content_subwrap {width:100%; display: flex; flex-direction: column; justify-content: center; height:calc(100% - 22px)}
-.home_section_content_title {font-family: HugeGothic-Bold; font-size:72px; font-weight:100; color:white;}
+
+.home_section_content h2{font-family: HugeGothic-Bold; font-size:72px; font-weight:100; color:white;}
 .home_section_content_title_hr {border-top: 1px solid white; width: 5vw; margin:36px 0;}
+
 .home_section_content_description {font-family: Galaxie-Book; font-size:18px; color:white; line-height: 28px; width:85%;}
 
 .home_section_02 {width:100vw; height:100vh; width:100vw; height:100vh; box-sizing: border-box;
@@ -46,3 +62,49 @@ p  {font-family: Galaxie-Book; font-size: 14px; color:black; font-weight: 100;}
 .font_color_black {color:black}
 
 .home_section_04 {width:100vw; height:100vh; width:100vw; height:100vh; box-sizing: border-box; background-image:url(../home/Hugeinc_NoTypeHugeinc_1920x1080_Shipt.png); background-size:cover; display: flex;}
+
+
+
+
+
+
+/*footer css*/
+.bg_color_black {background-color:rgb(0, 0, 0);}
+.color_white {color: white}
+.color_black {color:black}
+
+/*border line color*/
+.border_line_white {border-bottom: 1px solid white}
+.border_line_black {border-bottom: 1px solid black}
+
+.home_footer {width: 100vw; height: 240px; padding: 70px 0 80px; box-sizing: border-box;}
+
+
+/*left footer*/
+.footer_content_wrap {}
+
+    .home_footer > div {width: 100vw; height:90px; padding:0 calc(12.5vw + 15px); display: flex; justify-content: space-between; }
+
+
+.footer_content_left {display: flex; flex-direction:row; align-items: center;}
+
+    .footer_content_left > div {font-family: HugeGothic-Bold; font-size:36px; line-height: 36px; border-right:1px solid #888888; padding-right:32px; margin-right:32px; letter-spacing: 4px;}
+
+    .footer_content_left > p {font-family: HugeGothic-Bold; font-size:18px; line-height: 36px; letter-spacing: 1px; }
+
+
+/* right footer*/
+.footer_content_right {display: flex; justify-content: flext-end; flex-direction: column; }
+    .footer_content_right > div {font-family: HugeGothic-Bold; font-size:14px; line-height: 14px; letter-spacing: 1px; color:#c8c8c8; margin-bottom:12px;}
+
+    .footer_content_right a {margin-right:16px;}
+
+
+    .footer_content_right a:last-child {margin-right: 0}
+    .footer_content_right a:nth-child(2n+1) {color:rgb(240, 166, 166);}
+
+
+    .footer_aside {font-family: Galaxie-Book; font-size: 12px; line-height:20px; color:#c8c8c8; text-align: right;}
+
+/**/
+
