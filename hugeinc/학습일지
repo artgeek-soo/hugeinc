@@ -248,3 +248,4 @@ last child : 마자막 하나만 하면 하나만 준다
 
 .footer_content_right a: first-child(odd){color:red}
 .footer_content_right a:nth-child(3n+1) {color:rgb(240, 166, 166);} 3배수 번째 요소
+
